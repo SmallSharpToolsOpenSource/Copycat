@@ -14,6 +14,8 @@
 		268308D41B69D1C200843FB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268308D31B69D1C200843FB4 /* Images.xcassets */; };
 		268308D71B69D1C200843FB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268308D51B69D1C200843FB4 /* LaunchScreen.xib */; };
 		268308E31B69D1C200843FB4 /* CopycatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268308E21B69D1C200843FB4 /* CopycatTests.m */; };
+		268308EE1B69D42800843FB4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 268308ED1B69D42800843FB4 /* Item.m */; };
+		268308F11B69D44200843FB4 /* CopyableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 268308F01B69D44200843FB4 /* CopyableItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		268308DC1B69D1C200843FB4 /* CopycatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopycatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268308E11B69D1C200843FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268308E21B69D1C200843FB4 /* CopycatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopycatTests.m; sourceTree = "<group>"; };
+		268308EC1B69D42800843FB4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		268308ED1B69D42800843FB4 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		268308EF1B69D44200843FB4 /* CopyableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyableItem.h; sourceTree = "<group>"; };
+		268308F01B69D44200843FB4 /* CopyableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyableItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				268308CB1B69D1C200843FB4 /* AppDelegate.m */,
 				268308CD1B69D1C200843FB4 /* ViewController.h */,
 				268308CE1B69D1C200843FB4 /* ViewController.m */,
+				268308EC1B69D42800843FB4 /* Item.h */,
+				268308ED1B69D42800843FB4 /* Item.m */,
+				268308EF1B69D44200843FB4 /* CopyableItem.h */,
+				268308F01B69D44200843FB4 /* CopyableItem.m */,
 				268308D01B69D1C200843FB4 /* Main.storyboard */,
 				268308D31B69D1C200843FB4 /* Images.xcassets */,
 				268308D51B69D1C200843FB4 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268308EE1B69D42800843FB4 /* Item.m in Sources */,
 				268308CF1B69D1C200843FB4 /* ViewController.m in Sources */,
 				268308CC1B69D1C200843FB4 /* AppDelegate.m in Sources */,
+				268308F11B69D44200843FB4 /* CopyableItem.m in Sources */,
 				268308C91B69D1C200843FB4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
